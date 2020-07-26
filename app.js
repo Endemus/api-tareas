@@ -21,6 +21,6 @@ app.use((req, res, next) => {
 
 app.use('/api/login',login_routes);
 app.use('/api/users',user_routes);
-app.use('/api/task',task_routes);
+app.use('/api/tasks',task_routes);
 
 module.exports=app;
